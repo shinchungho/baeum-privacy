@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>배움 계정 및 데이터 삭제</title>
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 720px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    ol, ul { padding-left: 1.25rem; }
+    small { color: #666; }
+    a { color: #1565c0; }
+  </style>
+</head>
+<body>
+  <h1>배움 계정 및 데이터 삭제 안내</h1>
+  <p><small>최종 업데이트: 2026년 11월 2일</small></p>
+
+  <p>
+    배움(이하 “서비스”)는 Google Play 정책에 따라 계정 및 관련 데이터 삭제 방법을 안내합니다.
+  </p>
+
+  <h2>1. 앱에서 직접 삭제 (권장)</h2>
+  <p>로그인한 상태에서 아래 순서로 <strong>회원 탈퇴</strong>를 진행하면 계정과 주요 개인 데이터가 삭제됩니다.</p>
+  <ol>
+    <li>배움 앱 실행 후 <strong>Google 계정으로 로그인</strong></li>
+    <li>하단 <strong>「내 정보」</strong> 탭 선택</li>
+    <li><strong>「설정」</strong> 메뉴 진입</li>
+    <li><strong>「회원 탈퇴」</strong> 선택 후 안내에 따라 확인</li>
+  </ol>
+  <p>탈퇴 처리는 보통 <strong>즉시</strong> 완료됩니다. 완료 후 자동으로 로그아웃됩니다.</p>
+
+  <h2>2. 앱을 사용할 수 없는 경우 (이메일 요청)</h2>
+  <p>
+    앱에 로그인할 수 없거나 기기를 분실한 경우, 가입에 사용한 <strong>Google 계정 이메일</strong>을 아래 주소로 보내 주세요.
+  </p>
+  <p>이메일: <strong><a href="mailto:chungho1005@naver.com">chungho1005@naver.com</a></strong></p>
+  <p>제목 예시: <code>[배움] 계정 삭제 요청</code></p>
+  <p>본문에 포함할 내용: 가입 이메일, 삭제 요청 사유(선택). 신원 확인 후 <strong>영업일 기준 7일 이내</strong> 처리합니다.</p>
+
+  <h2>3. 삭제되는 데이터</h2>
+  <ul>
+    <li>supabase 인증 계정</li>
+    <li>프로필 정보: 별명, 출생년도, 성별, 지역, 직업, 자기소개, 관심사</li>
+    <li>프로필 사진</li>
+    <li>휴대폰 번호 등 <code>user_private</code>에 저장된 인증 정보</li>
+    <li>푸시 알림용 FCM 토큰</li>
+    <li>앱 내 알림 목록</li>
+  </ul>
+
+  <h2>4. 일부 보관·익명화되는 데이터</h2>
+  <p>서비스 운영·법령 준수·부정 이용 방지를 위해 아래는 즉시 삭제되지 않거나 익명화될 수 있습니다.</p>
+  <ul>
+    <li><strong>매칭·신청·결제 이력</strong>: 분쟁·환불·회계·법적 의무에 따라 필요한 기간 보관 후 파기</li>
+    <li><strong>후기·평점 집계</strong>: 탈퇴 후에도 상대방에게 표시되는 익명 통계가 남을 수 있음</li>
+    <li><strong>운영 로그</strong>: 보안·감사 목적의 서버 로그(법령상 기간 보관)</li>
+    <li><strong>Google Play 결제 기록</strong>: Google이 별도 보관( Google 정책 적용)</li>
+  </ul>
+  <p>
+    탈퇴 후 <code>users</code> 문서는 「탈퇴한 회원」으로 익명화되며, 이메일·프로필·사진 등 식별 정보는 제거됩니다.
+  </p>
+
+  <h2>5. 재가입</h2>
+  <p>
+    동일 Google 계정으로 다시 로그인하면 새 계정으로 가입할 수 있습니다.
+    단, 휴대폰 번호·보상 수령 이력 등 정책상 제한이 적용될 수 있습니다.
+  </p>
+
+  <h2>6. 문의</h2>
+  <p>이메일: <strong><a href="mailto:chungho1005@naver.com">chungho1005@naver.com</a></strong></p>
+
+  <p>
+    <a href="/privacy.html">개인정보 처리방침</a> ·
+    <a href="/terms.html">이용약관</a>
+  </p>
+</body>
+</html>
